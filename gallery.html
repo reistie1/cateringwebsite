@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="EN-US">
+    <head>
+        <title>Southern Belles Catering</title>
+        <meta name="author" content="Josh Reist">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="keywords" content="catering, food, souther, southern food, wedding, lunch">
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+        <meta name="description" content="A traditional catering website, serving modern delicious food for events big in small">
+        <link rel="stylesheet" href="/styles/gallery_styles.css">
+        <link rel="icon" href="/assets/bellesheader.jpg">
+        <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Parisienne&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://kit.fontawesome.com/7bc4df7016.js"></script>
+    </head>
+    <body>
+        <header class="header" id="top">
+            <section class="header-title">
+                <h1 class="title_top">Southern Belles</h1>
+                <h2 class="title_bottom">Catering</h2>
+            </section>
+            <section class="nav-wrapper" id="home">
+                <span><i class="fas fa-bars nav-slide-icon"  id="hover-icon"></i></span>
+                <nav class="nav-container" id="nav-container">
+                    <span><i class="fas fa-home icons"></i><a href="index.html" class="nav-item">Home</a></span>
+                    <span><i class="fas fa-user icons"></i><a href="index.html#about" class="nav-item">About</a></span>
+                    <span><i class="fas fa-utensils icons"></i><a href="index.html#menu" class="nav-item">Menu</a></span>
+                    <span><i class="fas fa-bell icons"></i><a href="index.html#services" class="nav-item">Services</a></span>
+                    <span><i class="fas fa-images icons"></i><a href="gallery.html" class="nav-item">Gallery</a></span>
+                    <span><i class="fas fa-address-card icons"></i><a href="index.html#contact" class="nav-item">Contact</a></span>
+                 </nav>
+            </section>
+        </header>
+<main>
+        <section id="gallery" class="gallery">
+            <div>
+                <h2 class="section_title">Photo Gallery</h2>
+            </div>
+            <section class="gallery_wrapper">
+                <img src="/assets/images/amalia-matt-wedding-694-3.jpg" alt="other" class="galleryPics">
+                <img src="/assets/images/amalia-matt-wedding-694-8.jpg" alt="other" class="galleryPics">
+                <img src="/assets/images/amalia-matt-wedding-694-14.jpg" alt="other" class="galleryPics">
+                <img src="/assets/images/amalia-matt-wedding-694-31.png" alt="other" class="galleryPics">
+                <img src="/assets/images/amalia-matt-wedding-694-41.png" alt="other" class="galleryPics">
+                <img src="/assets/images/cook_classes.jpg" alt="other" class="galleryPics">
+            </section>
+        </section>
+
+        <section class="modal" id="picModal">
+            <span class="close">&times;</span>
+            <span class="left" id="left">&lt;</span>
+            <span class="right" id="right">&gt;</span>
+            <img src="" alt="model picture" id="modalImg" class="modal_img">
+        </section>
+    </main>
+        <footer style="position: relative; bottom: 0; width: 100%;" class="footer">
+            <section class="footer-wrapper">
+                <section class="social-media-container">
+                    <div class="icon-description">
+                        <p>Give us a follow!</p>
+                    </div>
+                    <div class="media-icon">
+                        <span class="padding_bottom_sm"><i class="fa fa-facebook-square large-icons"></i></span>
+                        <span class="padding_bottom_sm"><i class="fa fa-instagram large-icons"></i></span>
+                        <span class="padding_bottom_sm"><i class="fa fa-twitter large-icons"></i></span>
+                    </div>
+                </section>
+                <div style="display: inline-block; position: absolute;top: 25%; right: 0;" class="to-top_wrapper">
+                    <a href="#top" class="back-to-top">Back to top</a>
+                </div>
+            </section>
+            <section class="bottom-disclaimer">
+                <p>&copy Southern Belles Catering 2020. All rights reserved</p>
+            </section>
+        </footer>
+
+        <script src="/scripts/javascript/gallery.js"></script>
+    </body>
+</html>

@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="EN-US">
+    <head>
+        <title>Southern Belles Catering</title>
+        <meta name="author" content="Josh Reist">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="keywords" content="catering, food, souther, southern food, wedding, lunch">
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+        <meta name="description" content="A traditional catering website, serving modern delicious food for events big in small">
+	    <link rel="stylesheet" type="text/css" href="/styles/styles.css" />
+        <link rel="icon" href="assets/bellesheader.jpg">
+        <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Parisienne&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://kit.fontawesome.com/7bc4df7016.js"></script>
+        <script>
+            /*function to validate user form input before being sent to the server, check to make sure
+            user provides a name and a message as well as one form of contact information and a valid email
+            address */
+            function validateInput(){
+                var name = document.forms['contact']['name'].value;
+                var email = document.forms['contact']['phone'].value;
+                var phone = document.forms['contact']['email'].value;
+                var msg = document.forms['contact']['msg'].value;
+                var flag = true;
+
+                //check to see if a name and message were both provided
+                if (name == "" && msg == ""){
+                    alert("please enter your name and a message");
+                    flag = false;
+                }
+                //check to make sure a form of contact information was provided
+                if (email == "" && phone == ""){
+                    alert("please enter a form of contact information");
+                    flag = false;
+                }
+                //check if the email they entered is valid if a phone number was not provided
+                if(phone == "" && !(/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(email))){
+                    alert("You have entered an invalid email address!");
+                    flag = false;
+                }
+                return flag;
+            }
+        </script>
+    </head>
+    <body>
+        <header class="header" id="top">
+            <section class="header-title">
+                <h1 class="title_top">Southern Belles</h1>
+                <h2 class="title_bottom">Catering</h2>
+            </section>
+            <section class="nav-wrapper" id="home">
+                <span><i class="fas fa-bars nav-slide-icon"  id="hover-icon"></i></span>
+                <nav class="nav-container" id="nav-container">
+                    <span><i class="fas fa-home icons"></i><a href="#home" class="nav-item">Home</a></span>
+                    <span><i class="fas fa-user icons"></i><a href="#about" class="nav-item">About</a></span>
+                    <span><i class="fas fa-utensils icons"></i><a href="#menu" class="nav-item">Menu</a></span>
+                    <span><i class="fas fa-bell icons"></i><a href="#services" class="nav-item">Services</a></span>
+                    <span><i class="fas fa-images icons"></i><a href="gallery.html" class="nav-item">Gallery</a></span>
+                    <span><i class="fas fa-address-card icons"></i><a href="#contact" class="nav-item">Contact</a></span>
+                 </nav>
+            </section>
+        </header>
+        <main>
+            <section>
+                <img src="assets/images/amalia-matt-wedding-694-141.png" alt="carousel images" class="carousel_image">
+                <img src="assets/images/amalia-matt-wedding-694-41.png" alt="carousel images" class="carousel_image">
+                <img src="assets/images/amalia-matt-wedding-694-31.png" alt="carousel images" class="carousel_image">
+            </section>
+            <section class="about-container" id="about">
+                <div>
+                    <h3 class="container_titles even">About Us</h3>
+                </div>
+                <section class="about-wrapper">
+                    <img src="assets/images/chef-wendy.png" alt="wendy" class="about-pic">
+                    <div class="about-info_wrapper">
+                        <article class="about_description">
+                            <h3 class="about-info_title">Wendy Gottmers</h3><span style="font-family: 'Oswald', sans-serif;"><h5 class="about-descriptor">Head Chef/Owner</h5></span>
+                            <p>My name is Wendy and I am the head chef at Southern Belles Catering. I have 20 years of cooking experience in the catering industry, catering events from tea parties, personal and corporate events, and wedding ranging in size. My cooking inspiration comes from my time in Italy where I was classically trained in tradition italian cooking, which has been the influence for a variety of dishes we offer. </p>
+                        </article>
+                    </div>
+                </section>
+            </section>
+            <section class="menu-containers" id="menu">
+                <div>
+                    <h3 class="container_titles odd">Popular Menu Items</h3>
+                </div>
+                <section class="menu-wrapper">
+                    <article class="menu-item">
+                        <h4 class="menu-item_title"> Cedar Plank Salmon with Lemon Zest</h4>
+                        <p class="menu-item_description">Smoked salmon served on a cedar plank with zesty lemon reduction for extra flavour.</p>
+                    </article>
+                    <article class="menu-item">
+                        <h4 class="menu-item_title"> Cherry Tomato Salad with Feta Cheese</h4>
+                        <p class="menu-item_description">A traditional Italian cherry Tomato salad topped with a Feta and Balsamic Vinegar.</p>
+                    </article>
+                    <article class="menu-item">
+                        <h4 class="menu-item_title"> Chic Pea Salad</h4>
+                        <p class="menu-item_description">A classic assorted Chic pea salad topped with our homemade classic dressing.</p>
+                    </article>
+                    <article class="menu-item">
+                        <h4 class="menu-item_title"> Meat Platter</h4>
+                        <p class="menu-item_description">An assortment of traditional Italian meats including Salami, Pepperoni, Prosciutto and many more.</p>
+                    </article>
+                    <article class="menu-item">
+                        <h4 class="menu-item_title"> Grilled Artichoke and Onion Platter</h4>
+                        <p class="menu-item_description">Grilled Artichoke and Onion salad with a light smoke flavour and glazed with a honey reduction.</p>
+                    </article>
+                    <article class="menu-item">
+                        <h4 class="menu-item_title"> Cheese Platter</h4>
+                        <p class="menu-item_description">An assortment of cheese' including Provolone, Havarti, Cheddar, Gouda and many more.</p>
+                    </article>
+                    <article class="menu-item">
+                        <h4 class="menu-item_title"> Cheese Platter</h4>
+                        <p class="menu-item_description">An assortment of cheese' including Provolone, Havarti, Cheddar, Gouda and many more.</p>
+                    </article>
+                    <article class="menu-item">
+                        <h4 class="menu-item_title"> Cheese Platter</h4>
+                        <p class="menu-item_description">An assortment of cheese' including Provolone, Havarti, Cheddar, Gouda and many more.</p>
+                    </article>
+                    <article class="menu-item">
+                        <h4 class="menu-item_title"> Cheese Platter</h4>
+                        <p class="menu-item_description">An assortment of cheese' including Provolone, Havarti, Cheddar, Gouda and many more.</p>
+                    </article>
+                </section>
+            </section>
+        <section class="service-container" id="services">
+            <div>
+                <h3 class="container_titles even">Our Services</h3>
+            </div>
+            <section class="service-wrapper">
+                <section class="service-wrapper_catering">
+                    <div class="card service_container_shadow">
+                        <img src="assets/images/cook_classes.jpg" alt="catering services" class="service-img">
+                        <article class="card-body padding-4">
+                            <h5 class="card-title font_oswald"> Event Catering</h5>
+                            <p class="card-text">We cater events big or small. We work with our customers to ensure that the food is just as memorable as the event.</p>
+                        </article>
+                    </div>
+                </section>
+                <section class="service-wrapper_classes">
+                    <div class="card service_container_shadow">
+                        <img src="assets/images/stockcatering.jpg" alt="cooking classes" class="service-img">
+                        <article class="card-body padding-4">
+                            <h5 class="card-title font_oswald"> Cooking Classes</h5>
+                            <p class="card-text">We offer cooking classes to those looking to take their cooking skills to the next level and bring the taste of Italy home.</p>
+                        </article>
+                    </div>
+                </section>
+            </section>
+        </section>
+        <section class="contact-container" id="contact">
+            <div>
+                <h3 class="container_titles odd">Contact Us</h3>
+            </div>
+            <div class="contact-wrapper">
+                <div class="form_container">
+                    <h3>Send us your questions</h3>
+                    <form method="post" action="mail.php" name="contact" onsubmit="return validateInput()">
+                        <label for="email">Full Name:</label><br><input type="text" placeholder="Enter full name" id="name" name="name" />
+                        <label for="email">Email:</label><br> <input type="email" placeholder="enter email" id="email" name="email" />
+                        <label for="email">Phone Number:</label><br><input type="phone" placeholder="Enter phone Number" id="phone" name="phone"/>
+                        Message: <textarea rows="6" cols="40" placeholder="Enter your message here..." name="msg"></textarea>
+                        <input type="submit" value="Submit" name="submit" class="wide-btn"/>
+                    </form>
+                </div>
+                <section class="contact_description_wrapper">
+                    <p class="contact_description">For all business related inquiries regarding availability, pricing and menu options, please contact us for more information.</p>
+                </section>
+            </div>
+        </section>
+    </main>
+        <footer style="position: relative; bottom: 0; width: 100%;" class="footer">
+            <section class="footer-wrapper">
+                <section class="social-media-container">
+                    <div class="icon-description">
+                        <p>Give us a follow!</p>
+                    </div>
+                    <div class="media-icon">
+                        <span class="padding_bottom_sm"><i class="fa fa-facebook-square large-icons"></i></span>
+                        <span class="padding_bottom_sm"><i class="fa fa-instagram large-icons"></i></span>
+                        <span><i class="fa fa-twitter large-icons"></i></span>
+                    </div>
+                </section>
+                <div style="display: inline-block; position: absolute;top: 25%; right: 0;" class="to-top_wrapper">
+                    <a href="#top" class="back-to-top">Back to top</a>
+                </div>
+            </section>
+            <section class="bottom-disclaimer">
+                <p>&copy Southern Belles Catering 2020. All rights reserved</p>
+            </section>
+        </footer>
+        <script src="/scripts/javascript/scripts.js"></script>
+    </body>
+</html>
