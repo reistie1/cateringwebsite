@@ -1001,11 +1001,21 @@ form textarea{
         -webkit-font-size-delta: 38px;
     }
 
-    .nav-item, .icons{
+    .nav-slide-icon{
         font-size: 20px;
         -webkit-font-size-delta: 20px;
     }
-     
+
+    .nav-item, .icons{
+        font-size: 20px;
+        -webkit-font-size-delta: 20px;
+        padding: 4px;
+    }
+
+    .carousel_image{
+        height: 650px;
+    }
+
     .about-pic{
         width: 240px;
         height: 240px;
@@ -1090,21 +1100,30 @@ form textarea{
         font-size: 20px;
         -webkit-font-size-delta: 20px;
     }
-
-
 }
 
 @media only screen and (min-width: 2400px){
     .carousel_image{
-        height: 650px;
+        height: 700px;
     }
-    
+
     .about-wrapper{
         width: 60%;
     }
 
     .service-wrapper{
         width: 75%;
+    }
+
+    .nav-slide-icon{
+        font-size: 22px;
+        -webkit-font-size-delta: 22px;
+    }
+
+    .nav-item, .icons{
+        font-size: 22px;
+        -webkit-font-size-delta: 22px;
+        padding: 4px;
     }
 
     .service-wrapper_classes,.service-wrapper_catering{
@@ -1115,6 +1134,21 @@ form textarea{
 
     .contact-wrapper{
         width: 50%;
+    }
+
+    .card-title, .menu-item_title{
+        font-size: 28px;
+        -webkit-font-size-delta: 28px;
+    }
+
+    .menu-item{
+        font-size: 26px;
+        -webkit-font-size-delta: 26px;
+    }
+
+    .card-text{
+        font-size: 22px;
+        -webkit-font-size-delta: 22px;
     }
 
     .form_container{

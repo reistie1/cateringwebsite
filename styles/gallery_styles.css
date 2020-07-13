@@ -120,7 +120,7 @@ body{
 }
 
 .gallery_wrapper{
-    width: 95%; 
+    width: 95%;
     margin: 0 auto;
 }
 
@@ -136,6 +136,17 @@ body{
     opacity: 0.6;
     -webkit-opacity: 0.6;
     background-color: gray;
+  }
+
+  .gallery_info{
+    text-align: center; 
+    padding: 24px; 
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    background-color: #ebe9e9;
   }
 
 
@@ -227,6 +238,7 @@ body{
       position: absolute;
       color: #f1f1f1;
       font-size: 16px;
+      padding: 10px;
       top: 60%;
       right: 5%;
   }
@@ -235,6 +247,7 @@ body{
     position: absolute;
     color: #f1f1f1;
     font-size: 16px;
+    padding: 10px;
     top: 60%;
     left: 5%;
 }
@@ -292,6 +305,11 @@ body{
         width: 90%;
         height: 175px;
     }
+
+    .gallery_info{
+        font-size: 14px; 
+        -webkit-font-size-delta: 14px;
+      }
 
     .modal{
         padding: 15px;
@@ -402,6 +420,20 @@ body{
         top: 30%;
     }
 
+    .nav-slide-icon{
+        font-size: 14px;
+        -webkit-font-size-delta: 14px;
+    }
+
+    .nav-wrapper{
+        top: 60%;
+    }
+
+    .gallery_info{
+        font-size: 16px; 
+        -webkit-font-size-delta: 16px;
+      }
+
     .footer-wrapper{width: 80%;}
 
 }
@@ -429,11 +461,26 @@ body{
         height: 250px;
     }
 
+    .nav-slide-icon{
+        font-size: 16px;
+        -webkit-font-size-delta: 16px;
+    }
+
+    .nav-wrapper{
+        top: 60%;
+    }
+
+
     .modal_img{
         width: 75%;
         height: 60%;
         top: 25%;
     }
+
+    .gallery_info{
+        font-size: 18px;
+        -webkit-font-size-delta: 18px;
+      }
 
 
     .large-icons{
@@ -483,6 +530,7 @@ body{
 
     .nav-item, .icons{
         font-size: 16px;
+        padding: 4px;
         -webkit-font-size-delta: 16px;
     }
 
@@ -523,9 +571,15 @@ body{
         -webkit-font-size-delta: 38px;
     }
 
+    .nav-slide-icon{
+        font-size: 20px;
+        -webkit-font-size-delta: 20px;
+    }
+
     .nav-item, .icons{
         font-size: 20px;
         -webkit-font-size-delta: 20px;
+        padding: 4px;
     }
 
     .galleryPics{
@@ -536,8 +590,8 @@ body{
     }
 
     .left, .right{
-        font-size: 32px;
-        -webkit-font-size-delta: 32px;
+        font-size: 24px;
+        -webkit-font-size-delta: 24px;
     }
 
     .social-media-container{
@@ -571,6 +625,22 @@ body{
         font-size: 28px;
         -webkit-font-size-delta: 28px;
     }
+
+    .nav-slide-icon{
+        font-size: 22px;
+        -webkit-font-size-delta: 22px;
+    }
+
+    .nav-item, .icons{
+        font-size: 22px;
+        -webkit-font-size-delta: 22px;
+        padding: 4px;
+    }
+
+    .gallery_info{
+        font-size: 22px; 
+        -webkit-font-size-delta: 22px;
+      }
 
     .bottom-disclaimer{
         font-size: 20px;
