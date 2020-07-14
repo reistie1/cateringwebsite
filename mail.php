@@ -46,8 +46,8 @@
             $mail->isSMTP();
             $mail->Host = 'smtp.sendgrid.net';
             $mail->SMTPAuth = true;
-            $mail->Username = 'apikey';
-            $mail->Password = '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';
+            $mail->Username = ''; //not provided for secuirty reasons
+            $mail->Password = ''; //not provided for security reasons
             $mail->SMTPSecure = 'tls';
             $mail->Port = 587;
 
