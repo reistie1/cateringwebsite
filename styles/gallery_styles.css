@@ -182,6 +182,17 @@ body{
     display: inline-block;
 }
 
+.media-icon{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.footer-contact_info{
+    display: block;
+    text-align: center;
+    padding: 15px;
+}
+
 .bottom-disclaimer{text-align: center; text-align: -moz-center; padding-top: 16px;}
 
 .back-to-top:hover{
@@ -340,6 +351,26 @@ body{
         -webkit-font-size-delta: 24px;
     }
 
+    .footer-contact_info{
+        padding-top: 30px;
+        font-size: 14px;
+        -webkit-font-size-delta: 14px;
+    }
+
+    .bottom-disclaimer{
+        font-size: 12px;
+        -webkit-font-size-delta: 12px;
+    }
+
+    .back-to-top{
+        font-size: 14px;
+        -webkit-font-size-delta: 14px;
+    }
+
+    .media-icon{
+        width: 100%;
+    }
+
 }
 
  @media only screen and (min-width:500px){
@@ -396,6 +427,14 @@ body{
     .bottom-disclaimer{
         width: 100%;
         margin-left: 5px;
+        font-size: 12px;
+        -webkit-font-size-delta: 12px;
+    }
+
+    .footer-contact_info{
+        padding-top: 30px;
+        font-size: 14px;
+        -webkit-font-size-delta: 14px;
     }
 
 }
@@ -436,6 +475,17 @@ body{
 
     .footer-wrapper{width: 80%;}
 
+    .bottom-disclaimer{
+        font-size: 14px;
+        -webkit-font-size-delta: 14px;
+    }
+
+    .footer-contact_info{
+        padding-top: 30px;
+        font-size: 14px;
+        -webkit-font-size-delta: 14px;
+    }
+
 }
 
 
@@ -446,6 +496,17 @@ body{
 
     .modal_img{
         width: 80%;
+    }
+
+    .bottom-disclaimer{
+        font-size: 14px;
+        -webkit-font-size-delta: 14px;
+    }
+
+    .footer-contact_info{
+        padding-top: 30px;
+        font-size: 15px;
+        -webkit-font-size-delta: 15px;
     }
 
 }
@@ -507,7 +568,13 @@ body{
         -webkit-font-size-delta: 18px;
     }
 
-    .bottom-disclaimer{font-size: 18px;  -webkit-font-size-delta: 18px;}
+    .bottom-disclaimer{font-size: 12px;  -webkit-font-size-delta: 12px;}
+
+    .footer-contact_info{
+        padding-top: 30px;
+        font-size: 18px;
+        -webkit-font-size-delta: 18px;
+    }
 }
 
 
@@ -545,6 +612,12 @@ body{
     }
 
     .bottom-disclaimer{
+        font-size: 16px;
+        -webkit-font-size-delta: 16px;
+    }
+
+    .footer-contact_info{
+        padding-top: 30px;
         font-size: 18px;
         -webkit-font-size-delta: 18px;
     }
@@ -605,11 +678,16 @@ body{
     }
 
     .bottom-disclaimer{
+        font-size: 18px;
+        -webkit-font-size-delta: 18px;
+    }
+
+    .back-to-top{
         font-size: 20px;
         -webkit-font-size-delta: 20px;
     }
 
-    .back-to-top{
+    .footer-contact_info{
         font-size: 20px;
         -webkit-font-size-delta: 20px;
     }
@@ -642,9 +720,14 @@ body{
         -webkit-font-size-delta: 22px;
       }
 
-    .bottom-disclaimer{
+      .bottom-disclaimer{
         font-size: 20px;
         -webkit-font-size-delta: 20px;
+    }
+
+    .footer-contact_info{
+        font-size: 22px;
+        -webkit-font-size-delta: 22px;
     }
 }
 

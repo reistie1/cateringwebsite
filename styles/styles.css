@@ -95,6 +95,12 @@ body{
     right: 10px;
 }
 
+.footer-contact_info{
+    display: block;
+    text-align: center;
+    padding: 15px;
+}
+
 .nav-slide-icon{
     padding: 16px;
  }
@@ -353,7 +359,7 @@ form textarea{
     margin: 10px auto;
     padding: 8px 18px;
     cursor: pointer;
-    border: 1px solid #96031A;
+    border: 1px solid black;
 }
 
 .wide-btn:hover{
@@ -405,6 +411,11 @@ form textarea{
     -webkit-text-decoration-line: none;
     text-decoration-line: none;
     color: #96031A;
+}
+
+.media-icon{
+    width: 85%;
+    margin: 0 auto;
 }
 
 
@@ -526,7 +537,6 @@ form textarea{
         width: 100%;
     }
 
-   
     .form_container{
         width: 100%;
     }
@@ -566,6 +576,26 @@ form textarea{
     .large-icons{
         font-size: 24px;
         -webkit-font-size-delta: 24px;
+    }
+
+    .footer-contact_info{
+        padding-top: 30px;
+        font-size: 14px;
+        -webkit-font-size-delta: 14px;
+    }
+
+    .media-icon{
+        width: 100%;
+    }
+
+    .bottom-disclaimer{
+        font-size: 12px;
+        -webkit-font-size-delta: 12px;
+    }
+
+    .back-to-top{
+        font-size: 14px;
+        -webkit-font-size-delta: 14px;
     }
 
 }
@@ -675,6 +705,14 @@ form textarea{
     .bottom-disclaimer{
         width: 100%;
         margin-left: 5px;
+        font-size: 12px;
+        -webkit-font-size-delta: 12px;
+    }
+
+    .footer-contact_info{
+        padding-top: 30px;
+        font-size: 14px;
+        -webkit-font-size-delta: 14px;
     }
 
 }
@@ -747,6 +785,17 @@ form textarea{
 
     .footer-wrapper{width: 80%;}
 
+    .bottom-disclaimer{
+        font-size: 14px;
+        -webkit-font-size-delta: 14px;
+    }
+
+    .footer-contact_info{
+        padding-top: 30px;
+        font-size: 14px;
+        -webkit-font-size-delta: 14px;
+    }
+
 }
 
 
@@ -788,6 +837,17 @@ form textarea{
 
     .contact_description_wrapper{
         width: 100%;
+    }
+
+    .bottom-disclaimer{
+        font-size: 14px;
+        -webkit-font-size-delta: 14px;
+    }
+
+    .footer-contact_info{
+        padding-top: 30px;
+        font-size: 15px;
+        -webkit-font-size-delta: 15px;
     }
 
 }
@@ -850,7 +910,13 @@ form textarea{
         -webkit-font-size-delta: 18px;
     }
 
-    .bottom-disclaimer{font-size: 18px;  -webkit-font-size-delta: 18px;}
+    .bottom-disclaimer{font-size: 12px;  -webkit-font-size-delta: 12px;}
+
+    .footer-contact_info{
+        padding-top: 30px;
+        font-size: 18px;
+        -webkit-font-size-delta: 18px;
+    }
 }
 
 
@@ -905,8 +971,8 @@ form textarea{
     }
 
     .about-descriptor{
-        font-size: 22px;
-        -webkit-font-size-delta: 22px;
+        font-size: 24px;
+        -webkit-font-size-delta: 24px;
     }
 
     .menu-item{
@@ -975,6 +1041,12 @@ form textarea{
     }
 
     .bottom-disclaimer{
+        font-size: 16px;
+        -webkit-font-size-delta: 16px;
+    }
+
+    .footer-contact_info{
+        padding-top: 30px;
         font-size: 18px;
         -webkit-font-size-delta: 18px;
     }
@@ -1014,6 +1086,11 @@ form textarea{
 
     .carousel_image{
         height: 650px;
+    }
+
+    .about-info_title, .about-descriptor{
+        font-size: 30px;
+        -webkit-font-size-delta: 30px;
     }
 
     .about-pic{
@@ -1092,11 +1169,16 @@ form textarea{
     }
 
     .bottom-disclaimer{
+        font-size: 18px;
+        -webkit-font-size-delta: 18px;
+    }
+
+    .back-to-top{
         font-size: 20px;
         -webkit-font-size-delta: 20px;
     }
 
-    .back-to-top{
+    .footer-contact_info{
         font-size: 20px;
         -webkit-font-size-delta: 20px;
     }
@@ -1113,6 +1195,11 @@ form textarea{
 
     .service-wrapper{
         width: 75%;
+    }
+
+    .about-info_title, .about-descriptor{
+        font-size: 32px;
+        -webkit-font-size-delta: 32px;
     }
 
     .nav-slide-icon{
@@ -1176,5 +1263,10 @@ form textarea{
     .bottom-disclaimer{
         font-size: 20px;
         -webkit-font-size-delta: 20px;
+    }
+
+    .footer-contact_info{
+        font-size: 22px;
+        -webkit-font-size-delta: 22px;
     }
 }
