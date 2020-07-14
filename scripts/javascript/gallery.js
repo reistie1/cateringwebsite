@@ -43,7 +43,7 @@ else if('attachEvent' in window){
         slideMenu.style.display = showContainer(slideMenu);
     });
     //close picture modal by hiding it
-    close.attachEvent("click", function(){
+    close.attachEvent("onclick", function(){
         modal.style.display = "none";
         modalPos = 0;
     });
